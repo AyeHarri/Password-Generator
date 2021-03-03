@@ -1,0 +1,28 @@
+#Software Made and owned By AyeHarri!
+import random
+
+#Numbers And Letters that can be used by the genarator (You can add your own!)
+chars = 'yihbnofre7y843rhy&%*&*YHYYYHU&YTR6g8t4y38f83y342354872396423879463789123457890878544^%*^&*'
+
+#Code that lets user choose how long the password is ( You can change this)
+length = input('Password Length?')
+length = int(length)
+
+
+
+
+
+
+for p in range(3):
+  password = ''
+  
+  
+  for c in range(length):
+  
+  
+  
+    password += random.choice(chars)
+  
+  
+  print(password)
+
